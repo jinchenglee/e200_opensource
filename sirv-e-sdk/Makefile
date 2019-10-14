@@ -14,8 +14,9 @@ endif
 GCCVER ?= 7
 
 # Default target
-BOARD ?= freedom-e300-hifive1
-PROGRAM ?= demo_gpio
+#<<JC>> BOARD ?= freedom-e300-hifive1
+BOARD ?= sirv-e203-lichee
+PROGRAM ?= hello_world
 GDB_PORT ?= 3333
 
 # Variables the user probably shouldn't override.
